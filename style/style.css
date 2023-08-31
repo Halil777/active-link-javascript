@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: orangered;
+    padding: 25px;
+    text-align: center;
+}
+
+header nav a {
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 20px;
+}
+
+header nav a.active,
+header nav a:hover {
+    background: #fff;
+    color: orangered;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7em;
+    color: #ccc;
+    font-weight: bolder;
+    padding-bottom: 70px;
+    text-transform: uppercase;
+}
+
+section:nth-child(odd) {
+    background: #eee;
+}
